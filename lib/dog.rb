@@ -1,3 +1,3 @@
 class Dog
-  ActiveRecord::Base.connection.execute(sql)
+  ActiveRecord::Base.establish_connection
 end
