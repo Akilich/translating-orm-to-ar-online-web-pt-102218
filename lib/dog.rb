@@ -1,3 +1,3 @@
 class Dog
-  ActiveRecord::Base.establish_connection
+  ActiveRecord::Base
 end
